@@ -5,8 +5,8 @@ catalog = Catalog()
 print(f'kwargs keys is {catalog.column_names}')
 
 profiles_data = [
-    ('Lawacky', 'Maria', '89777777777', 'maria@mail.ru'),
-    ('Lawacky', 'Bob', '89888888888', 'bob@mail.ru')
+    ('Lawacky', 'Maria', '89777777777', 'Екатеринбург', 'maria@mail.ru'),
+    ('Lawacky', 'Bob', '89888888888', 'Екатеринбург', 'bob@mail.ru')
 ]
 
 print('# 1 ADD PROFILE(S)')

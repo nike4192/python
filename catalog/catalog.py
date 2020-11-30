@@ -14,6 +14,9 @@ TABLE_COLUMNS = {  # IMPORTANT: keys of this dict is keys for **kwargs add_profi
         'type': str, 'length': 20, 'unique': True,
         'valid': valid.phone
     },
+    'city': {
+        'type': str, 'length': 40
+    },
     'email': {
         'type': str, 'length': 50, 'not_null': True, 'unique': True,
         'valid': valid.email
